@@ -131,7 +131,7 @@ Once the packages are installed, you can refer to the Makefile for all the avail
 - **cloc**: Count lines of code using cloc (must be installed first)
 - **format**: Format code with black and ruff
 - **help**: List available commands
-- **lock**: Update poetry.lock file
+- **lock**: Update uv.lock file
 - **major**: Bump major version without committing
 - **minor**: Bump minor version without committing
 - **notebook**: Launch Jupyter notebook.
@@ -147,7 +147,7 @@ Once the packages are installed, you can refer to the Makefile for all the avail
 **Principle:**  
 > Makefile provides stable, memorable commands, so anyone should be able to run and explore the project with one command.
 
-**P.S:** You can install `make` on Windows using Scoop or just copy paste the commands from file and execute them in the terminal.
+**P.S.** You can install `make` on Windows using Scoop or just copy paste the commands from file and execute them in the terminal.
 
 ---
 
@@ -191,7 +191,7 @@ make quality
 This command runs Radon, which calculates several helpful metrics:
 
 - **Cyclomatic Complexity (cc)** : Measures how many decision paths a function has.
-  More branches → harder to read and test. *Lower is better.*.
+  More branches → harder to read and test. *Lower is better*.
 - **Maintainability Index (mi)**: Gives a score (0–100) estimating how easy the code is to understand and modify. *Higher is better*.
 - **Halstead Metrics (hal)**: Analyze the “effort” required to read and understand the code based on operators and operands. It’s not something you need to memorize — it simply highlights code that might be too dense.
 
@@ -296,7 +296,7 @@ make minor
 make patch
 ```
 
-**P.S**: Project's version should not be edited manually. To set a specific project's version, use `make set-version` available command.
+**P.S.** Project's version should not be edited manually. To set a specific project's version, use `make set-version` available command.
 
 **Principle:**  
 > Version numbers should reflect the scope of change so users instantly understand what to expect.
