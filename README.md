@@ -1,6 +1,6 @@
 # OMK Python Project Template
 
-[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg?style=for-the-badge)](https://github.com/chetanraj/awesome-github-badges) ![py_version](https://img.shields.io/badge/python-^3.11-blue?style=for-the-badge&logo=python&logoColor=9cf) ![version](https://img.shields.io/badge/version-0.1.0-gree?style=for-the-badge&logo=semver) ![code quality](https://img.shields.io/badge/code_quality-A-51C62B?style=for-the-badge&logo=codeforces&logoColor=9cf)
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg?style=for-the-badge)](https://github.com/chetanraj/awesome-github-badges) ![py_version](https://img.shields.io/badge/python-^3.11-blue?style=for-the-badge&logo=python&logoColor=9cf) ![version](https://img.shields.io/badge/version-1.0.0-gree?style=for-the-badge&logo=semver) ![code quality](https://img.shields.io/badge/code_quality-A-51C62B?style=for-the-badge&logo=codeforces&logoColor=9cf)
 
 ```text
    ____  __    __  ___      __ __          __   

@@ -3,3 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
+## [1.0.0] - 2025-11-20
+
+### Added
+
+- First official release of the OMK Python Project Template
+- Complete project structure aligned with the Observe → Model → Kodify methodology

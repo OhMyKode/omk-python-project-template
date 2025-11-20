@@ -2,7 +2,7 @@
 
 .DEFAULT_GOAL := help
 
-version = 0.1.0
+version = 1.0.0
 
 
 .PHONY: help run notebook test reqs lock cloc quality format patch minor major set-version show-version upgrade clean
