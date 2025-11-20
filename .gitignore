@@ -1,0 +1,108 @@
+# -----------------------------
+# 🐍 Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+.Python
+.pytest_cache/
+
+
+# -----------------------------
+# 📦 Package Managers
+# -----------------------------
+# uv / pip / virtualenv
+.venv/
+env/
+venv/
+.cache/
+
+
+# -----------------------------
+# 📚 Jupyter & Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb~
+
+
+# -----------------------------
+# 🗂 Project Directories
+# -----------------------------
+# Data (only commit samples or README)
+data/input/
+data/output/
+data/*.csv
+data/*.parquet
+
+# Models & large artifacts
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Notebooks auto-saves
+notebooks/*-checkpoint/
+
+
+# -----------------------------
+# 🔊 Logs & Hydra
+# -----------------------------
+logs/
+*.log
+# Hydra outputs (even if you redirect them)
+**/.hydra/
+
+
+# -----------------------------
+# 🛠 Build / Dist
+# -----------------------------
+build/
+dist/
+htmlcov/
+.coverage
+coverage.xml
+*.prof
+*.profile
+
+
+# -----------------------------
+# 🧪 Tests
+# -----------------------------
+.pytest_cache/
+.tox/
+
+
+# -----------------------------
+# 🖼 Assets
+# -----------------------------
+assets/generated/
+assets/tmp/
+assets/**/*.tmp
+
+
+# -----------------------------
+# 🔧 Editors & OS Files
+# -----------------------------
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+
+# -----------------------------
+# 🔐 Secrets (precaution)
+# -----------------------------
+*.env
+.env.*
+*.secret
+*.key
+*.pem

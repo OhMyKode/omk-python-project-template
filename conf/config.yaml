@@ -1,0 +1,22 @@
+defaults:
+  - data: default
+  - model: default
+  - pipeline: default
+  - _self_
+
+hydra:
+  run:
+    dir: logs
+  sweep:
+    dir: logs
+
+project:
+  name: "omk-python-project-template"
+  seed: 42
+
+paths:
+  data_dir: "data"
+  input_dir: "${paths.data_dir}/input"
+  output_dir: "${paths.data_dir}/output"
+  models_dir: "models"
+  logs_dir: "logs"

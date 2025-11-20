@@ -1,0 +1,17 @@
+model:
+  type: "logreg"
+  n_estimators: 200
+  max_depth: 8
+  learning_rate: 0.01
+  regularization: 0.001
+
+training:
+  batch_size: 64
+  num_epochs: 10
+  validation_split: 0.2
+  shuffle: true
+  early_stopping: true
+
+metrics:
+  primary: "accuracy"
+  others: ["precision", "recall"]

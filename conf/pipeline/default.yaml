@@ -1,0 +1,6 @@
+pipeline:          # "train" or "predict"
+  save_model: true
+  model_path: "${paths.models_dir}/model.pkl"
+
+  log_level: "INFO"
+  log_to_file: true

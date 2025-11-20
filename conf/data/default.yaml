@@ -1,0 +1,6 @@
+preprocessing:
+  imputation_strategy: "mean"
+  scale_features: true
+  one_hot_encode: true
+  target_column: "target"
+  feature_columns: null
