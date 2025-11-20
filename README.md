@@ -299,7 +299,7 @@ make patch
 **P.S**: Project's version should not be edited manually. To set a specific project's version, use `make set-version` available command.
 
 **Principle:**  
-> Version numbers communicate change impact clearly and honestly.
+> Version numbers should reflect the scope of change so users instantly understand what to expect.
 
 ---
 
